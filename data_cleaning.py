@@ -62,5 +62,4 @@ df_out = df.drop(['Competitors'], axis=1)
 
 df_out.to_csv('salary_data_cleaned.csv', index=False)
 
-pd.read_csv('salary_data_cleaned.csv')
 
